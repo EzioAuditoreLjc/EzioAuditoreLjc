@@ -3,15 +3,68 @@
   <head>
     <meta charset="utf-8"/>
     <title>个人主页</title>
-    <link href=" C:\Users\龙劲辰\Desktop\1.css "rel="stylesheet"type="text/css"/>
+    <link rel ="stylesheet" type ="text/css" href="C:\Users\龙劲辰\Desktop\jigai\style.css">
+<style>
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+</style>
   </head>
   <body>
+    <div>
     <h1>个人简介</h1>
-    <img src="‪C:\Users\龙劲辰\Desktop\微信图片_20200904080513.jpg"/>
+    <img src="‪C:\Users\龙劲辰\Desktop\jigai\ljc.jpg">
+    </div>
+    <div>
     <p>姓名：龙劲辰，性别：男</p>
     <p>生日：2001-12-16</p>
-    <p>爱好：钢琴、篮球、乐高</p>
+    </div>
+    <div>
+    <div class="dropdown">
+  <button class="dropbtn">爱好</button>
+  <div class="dropdown-content">
+    <a href="https://baike.baidu.com/item/乐高/5297436?fr=aladdin">乐高</a>
+    <p>钢琴</p>
+    <p>篮球</p>
+  </div>
+</div>
     <p>最喜欢的动漫： <a href="https://baike.baidu.com/item/忍者神龟/12700639">TMNT</a>2003版</p>
-    <p>音乐喜好：广泛，联合国五常的语言都有听</p>
+    <p>音乐喜好广泛：联合国五常的语言的歌,经典歌曲都有听</p>
+    </div>
   </body>
- </html>
+</html>
