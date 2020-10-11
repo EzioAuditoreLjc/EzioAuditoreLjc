@@ -1,0 +1,39 @@
+body
+{
+	width:720px;
+	margin-left: auto;
+	margin-right: auto;
+}
+body
+{
+	animation:myfirst 15s;
+	-webkit-animation:myfirst 15s; /* Safari and Chrome */
+}
+@keyframes myfirst
+{
+	from {background:rgb(81,244,239);}
+	to {background:rgb(225,225,145);}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+	from {background:rgb(81,244,239);}
+	to {background:rgb(225,225,145);}
+}
+div
+{
+  border-width: 3px;  
+  border-style: groove; 
+  border-color: rgb(196,255,14);  
+  border-radius: 5px;  
+  margin: 5px; 
+}
+.mask {
+    background-color: #252525;
+    color: #252525;
+    transition: color 0.5s;
+}
+
+.mask:hover {
+    color: #ffffff;
+}
