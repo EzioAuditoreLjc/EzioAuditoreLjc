@@ -6,8 +6,9 @@ body
 }
 body
 {
-	animation:myfirst 15s;
-	-webkit-animation:myfirst 15s; /* Safari and Chrome */
+	background:rgb(225,225,145);
+	animation:myfirst 10s;
+	-webkit-animation:myfirst 10s; /* Safari and Chrome */
 }
 @keyframes myfirst
 {
